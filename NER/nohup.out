@@ -1,0 +1,199 @@
+2018-12-27 19:20:04.826757: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-12-27 19:20:05.148015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1411] Found device 0 with properties: 
+name: Tesla P40 major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:05:00.0
+totalMemory: 22.38GiB freeMemory: 22.21GiB
+2018-12-27 19:20:05.148075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2018-12-27 19:20:05.451361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-27 19:20:05.451421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2018-12-27 19:20:05.451432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2018-12-27 19:20:05.452083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 21542 MB memory) -> physical GPU (device: 0, name: Tesla P40, pci bus id: 0000:05:00.0, compute capability: 6.1)
+0.1562160617319234
+17495
+11
+epoch: (1 / 100) | loss : 3.0409 |  acc : 0.9221 
+epoch: (1 / 100) | loss : 6.4627 |  acc : 0.8846 
+epoch: (1 / 100) | loss : 2.0275 |  acc : 0.9489 
+epoch: (1 / 100) | loss : 2.8565 |  acc : 0.9291 
+{'F1': 75.4, 'acc': 95.1, 'Recall': 69.73, 'Precision': 82.08}
+...................test.................
+{'F1': 69.21, 'acc': 94.19, 'Recall': 63.19, 'Precision': 76.5}
+...................test.................
+epoch: (1 / 100) | loss : 2.7091 |  acc : 0.9298 
+epoch: (1 / 100) | loss : 3.0761 |  acc : 0.9340 
+epoch: (1 / 100) | loss : 2.9393 |  acc : 0.9500 
+epoch: (2 / 100) | loss : 1.1704 |  acc : 0.9559 
+epoch: (2 / 100) | loss : 0.8085 |  acc : 0.9709 
+{'F1': 80.65, 'acc': 95.97, 'Recall': 75.11, 'Precision': 87.08}
+...................test.................
+{'F1': 74.21, 'acc': 95.0, 'Recall': 68.13, 'Precision': 81.48}
+...................test.................
+epoch: (2 / 100) | loss : 2.0284 |  acc : 0.9646 
+epoch: (2 / 100) | loss : 1.6917 |  acc : 0.9603 
+epoch: (2 / 100) | loss : 0.8347 |  acc : 0.9724 
+epoch: (2 / 100) | loss : 1.0086 |  acc : 0.9783 
+epoch: (2 / 100) | loss : 2.3699 |  acc : 0.9539 
+{'F1': 81.9, 'acc': 96.21, 'Recall': 76.06, 'Precision': 88.72}
+...................test.................
+{'F1': 74.54, 'acc': 94.92, 'Recall': 68.17, 'Precision': 82.23}
+...................test.................
+epoch: (3 / 100) | loss : 1.0627 |  acc : 0.9797 
+epoch: (3 / 100) | loss : 2.0028 |  acc : 0.9562 
+epoch: (3 / 100) | loss : 0.6434 |  acc : 0.9929 
+epoch: (3 / 100) | loss : 0.7208 |  acc : 0.9707 
+epoch: (3 / 100) | loss : 0.7482 |  acc : 0.9835 
+{'F1': 83.58, 'acc': 96.53, 'Recall': 78.17, 'Precision': 89.79}
+...................test.................
+{'F1': 76.71, 'acc': 95.29, 'Recall': 70.47, 'Precision': 84.16}
+...................test.................
+epoch: (3 / 100) | loss : 0.8792 |  acc : 0.9790 
+epoch: (3 / 100) | loss : 1.7822 |  acc : 0.9493 
+epoch: (3 / 100) | loss : 1.2593 |  acc : 0.9654 
+epoch: (4 / 100) | loss : 1.5536 |  acc : 0.9690 
+epoch: (4 / 100) | loss : 0.7038 |  acc : 0.9846 
+{'F1': 84.12, 'acc': 96.58, 'Recall': 78.53, 'Precision': 90.56}
+...................test.................
+{'F1': 77.17, 'acc': 95.31, 'Recall': 70.58, 'Precision': 85.12}
+...................test.................
+epoch: (4 / 100) | loss : 0.3378 |  acc : 0.9845 
+epoch: (4 / 100) | loss : 0.4252 |  acc : 0.9840 
+epoch: (4 / 100) | loss : 0.4785 |  acc : 0.9945 
+epoch: (4 / 100) | loss : 0.6147 |  acc : 0.9914 
+epoch: (4 / 100) | loss : 0.3835 |  acc : 0.9894 
+{'F1': 85.04, 'acc': 96.81, 'Recall': 79.88, 'Precision': 90.92}
+...................test.................
+{'F1': 78.12, 'acc': 95.49, 'Recall': 71.93, 'Precision': 85.47}
+...................test.................
+epoch: (5 / 100) | loss : 0.6180 |  acc : 0.9860 
+epoch: (5 / 100) | loss : 0.3583 |  acc : 0.9872 
+epoch: (5 / 100) | loss : 0.3994 |  acc : 0.9960 
+epoch: (5 / 100) | loss : 0.3918 |  acc : 0.9850 
+epoch: (5 / 100) | loss : 0.5053 |  acc : 0.9889 
+epoch: (5 / 100) | loss : 0.6923 |  acc : 0.9852 
+epoch: (5 / 100) | loss : 0.6255 |  acc : 0.9774 
+epoch: (5 / 100) | loss : 1.9906 |  acc : 0.9403 
+epoch: (6 / 100) | loss : 0.8329 |  acc : 0.9828 
+epoch: (6 / 100) | loss : 0.2485 |  acc : 0.9914 
+{'F1': 85.12, 'acc': 96.73, 'Recall': 79.58, 'Precision': 91.5}
+...................test.................
+{'F1': 78.13, 'acc': 95.43, 'Recall': 71.23, 'Precision': 86.52}
+...................test.................
+epoch: (6 / 100) | loss : 0.0972 |  acc : 1.0000 
+epoch: (6 / 100) | loss : 0.8378 |  acc : 0.9864 
+epoch: (6 / 100) | loss : 0.9231 |  acc : 0.9635 
+epoch: (6 / 100) | loss : 0.8290 |  acc : 0.9844 
+epoch: (6 / 100) | loss : 0.1367 |  acc : 1.0000 
+{'F1': 85.66, 'acc': 96.78, 'Recall': 79.86, 'Precision': 92.38}
+...................test.................
+{'F1': 77.97, 'acc': 95.34, 'Recall': 70.74, 'Precision': 86.85}
+...................test.................
+epoch: (7 / 100) | loss : 0.4769 |  acc : 0.9840 
+epoch: (7 / 100) | loss : 0.1086 |  acc : 0.9945 
+epoch: (7 / 100) | loss : 0.3612 |  acc : 0.9698 
+epoch: (7 / 100) | loss : 0.4600 |  acc : 0.9838 
+epoch: (7 / 100) | loss : 0.0384 |  acc : 1.0000 
+{'F1': 85.9, 'acc': 96.87, 'Recall': 80.46, 'Precision': 92.12}
+...................test.................
+{'F1': 78.17, 'acc': 95.44, 'Recall': 71.39, 'Precision': 86.36}
+...................test.................
+epoch: (7 / 100) | loss : 0.4886 |  acc : 0.9902 
+epoch: (7 / 100) | loss : 1.1691 |  acc : 0.9850 
+epoch: (7 / 100) | loss : 0.3855 |  acc : 0.9932 
+epoch: (8 / 100) | loss : 0.2620 |  acc : 0.9848 
+epoch: (8 / 100) | loss : 0.0496 |  acc : 1.0000 
+{'F1': 86.29, 'acc': 96.96, 'Recall': 81.36, 'Precision': 91.86}
+...................test.................
+{'F1': 79.05, 'acc': 95.65, 'Recall': 72.64, 'Precision': 86.7}
+...................test.................
+epoch: (8 / 100) | loss : 0.2468 |  acc : 0.9866 
+epoch: (8 / 100) | loss : 0.5554 |  acc : 0.9830 
+epoch: (8 / 100) | loss : 0.7900 |  acc : 0.9650 
+epoch: (8 / 100) | loss : 0.3255 |  acc : 0.9895 
+epoch: (8 / 100) | loss : 0.4517 |  acc : 0.9866 
+{'F1': 86.58, 'acc': 97.06, 'Recall': 81.84, 'Precision': 91.91}
+...................test.................
+{'F1': 79.4, 'acc': 95.66, 'Recall': 73.49, 'Precision': 86.35}
+...................test.................
+epoch: (9 / 100) | loss : 0.0196 |  acc : 1.0000 
+epoch: (9 / 100) | loss : 0.1971 |  acc : 0.9805 
+epoch: (9 / 100) | loss : 0.2885 |  acc : 0.9951 
+epoch: (9 / 100) | loss : 0.1232 |  acc : 0.9886 
+epoch: (9 / 100) | loss : 0.0237 |  acc : 1.0000 
+epoch: (9 / 100) | loss : 0.1588 |  acc : 0.9960 
+epoch: (9 / 100) | loss : 0.6870 |  acc : 0.9936 
+epoch: (9 / 100) | loss : 0.1760 |  acc : 0.9835 
+epoch: (10 / 100) | loss : 0.0832 |  acc : 1.0000 
+epoch: (10 / 100) | loss : 0.2745 |  acc : 0.9843 
+epoch: (10 / 100) | loss : 0.6272 |  acc : 0.9871 
+epoch: (10 / 100) | loss : 0.2817 |  acc : 0.9965 
+epoch: (10 / 100) | loss : 0.0309 |  acc : 1.0000 
+epoch: (10 / 100) | loss : 0.2056 |  acc : 0.9880 
+epoch: (10 / 100) | loss : 0.0448 |  acc : 1.0000 
+epoch: (11 / 100) | loss : 0.0346 |  acc : 1.0000 
+epoch: (11 / 100) | loss : 0.0236 |  acc : 1.0000 
+epoch: (11 / 100) | loss : 0.1316 |  acc : 0.9910 
+epoch: (11 / 100) | loss : 0.1273 |  acc : 0.9917 
+epoch: (11 / 100) | loss : 0.1929 |  acc : 0.9915 
+epoch: (11 / 100) | loss : 0.4851 |  acc : 0.9916 
+epoch: (11 / 100) | loss : 0.0758 |  acc : 1.0000 
+epoch: (11 / 100) | loss : 0.6065 |  acc : 0.9685 
+epoch: (12 / 100) | loss : 0.0534 |  acc : 1.0000 
+epoch: (12 / 100) | loss : 0.2285 |  acc : 0.9904 
+epoch: (12 / 100) | loss : 0.2945 |  acc : 0.9962 
+epoch: (12 / 100) | loss : 0.1422 |  acc : 0.9901 
+epoch: (12 / 100) | loss : 0.1144 |  acc : 0.9947 
+epoch: (12 / 100) | loss : 0.1441 |  acc : 0.9944 
+epoch: (12 / 100) | loss : 0.0304 |  acc : 1.0000 
+epoch: (13 / 100) | loss : 0.0638 |  acc : 1.0000 
+epoch: (13 / 100) | loss : 0.0320 |  acc : 1.0000 
+epoch: (13 / 100) | loss : 0.2474 |  acc : 0.9918 
+epoch: (13 / 100) | loss : 0.1111 |  acc : 0.9967 
+epoch: (13 / 100) | loss : 0.0954 |  acc : 1.0000 
+epoch: (13 / 100) | loss : 0.0811 |  acc : 0.9953 
+epoch: (13 / 100) | loss : 0.3804 |  acc : 0.9930 
+epoch: (13 / 100) | loss : 0.0237 |  acc : 1.0000 
+epoch: (14 / 100) | loss : 0.1996 |  acc : 0.9970 
+epoch: (14 / 100) | loss : 0.0173 |  acc : 1.0000 
+epoch: (14 / 100) | loss : 0.3167 |  acc : 0.9965 
+epoch: (14 / 100) | loss : 0.0789 |  acc : 1.0000 
+epoch: (14 / 100) | loss : 0.0744 |  acc : 1.0000 
+epoch: (14 / 100) | loss : 0.2251 |  acc : 0.9957 
+epoch: (14 / 100) | loss : 0.0896 |  acc : 1.0000 
+epoch: (15 / 100) | loss : 0.1526 |  acc : 0.9926 
+epoch: (15 / 100) | loss : 0.0203 |  acc : 1.0000 
+epoch: (15 / 100) | loss : 0.4588 |  acc : 0.9862 
+epoch: (15 / 100) | loss : 0.0590 |  acc : 1.0000 
+epoch: (15 / 100) | loss : 0.2923 |  acc : 0.9885 
+epoch: (15 / 100) | loss : 0.1652 |  acc : 0.9935 
+epoch: (15 / 100) | loss : 0.1273 |  acc : 0.9921 
+epoch: (15 / 100) | loss : 0.0647 |  acc : 1.0000 
+epoch: (16 / 100) | loss : 0.0818 |  acc : 1.0000 
+epoch: (16 / 100) | loss : 0.0126 |  acc : 1.0000 
+epoch: (16 / 100) | loss : 0.1455 |  acc : 0.9951 
+epoch: (16 / 100) | loss : 0.1807 |  acc : 0.9938 /root/anaconda3/envs/tensorflow/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+epoch: (16 / 100) | loss : 0.3166 |  acc : 0.9927 
+epoch: (16 / 100) | loss : 0.2222 |  acc : 0.9909 
+epoch: (16 / 100) | loss : 0.0095 |  acc : 1.0000 
+epoch: (17 / 100) | loss : 0.1283 |  acc : 0.9964 
+epoch: (17 / 100) | loss : 0.1494 |  acc : 0.9967 
+epoch: (17 / 100) | loss : 0.0193 |  acc : 1.0000 
+epoch: (17 / 100) | loss : 0.2528 |  acc : 0.9855 
+epoch: (17 / 100) | loss : 0.0957 |  acc : 0.9916 
+epoch: (17 / 100) | loss : 0.0847 |  acc : 0.9948 
+epoch: (17 / 100) | loss : 0.0358 |  acc : 1.0000 
+epoch: (17 / 100) | loss : 0.3680 |  acc : 0.9930 
+epoch: (18 / 100) | loss : 0.0238 |  acc : 1.0000 
+epoch: (18 / 100) | loss : 0.1178 |  acc : 0.9967 
+epoch: (18 / 100) | loss : 0.0523 |  acc : 1.0000 
+epoch: (18 / 100) | loss : 0.0365 |  acc : 1.0000 
+epoch: (18 / 100) | loss : 0.0398 |  acc : 0.9958 
+epoch: (18 / 100) | loss : 0.0372 |  acc : 1.0000 
+epoch: (18 / 100) | loss : 0.0161 |  acc : 1.0000 
+epoch: (19 / 100) | loss : 0.1694 |  acc : 0.9933 
+epoch: (19 / 100) | loss : 0.0118 |  acc : 1.0000 
+epoch: (19 / 100) | loss : 0.2960 |  acc : 0.9940 
+epoch: (19 / 100) | loss : 0.1182 |  acc : 1.0000 
+epoch: (19 / 100) | loss : 0.0967 |  acc : 0.9964 
+best f186.58
