@@ -19,7 +19,7 @@ sep=' '
 def build_vocab(file,vocab_size =4000):
 	c_input= Counter()
 	slot_tag = set()
-	for file in ['train.txt']:
+	for file in ['train.txt','test.txt','dev.txt']:
 		with open(folder+file,'r',encoding='utf-8') as lines:
 				for line in lines:
 					if len(line.strip().split(sep))==1:continue
